@@ -1,0 +1,13 @@
+{
+    "projectName": "HelloWorld",
+    "languages": [{
+		"chevrotainParserConfig": {"maxLookahead": 4},
+        "id": "hello-world",
+        "grammar": "src/language-server/hello-world.langium",
+        "fileExtensions": [".hello"],
+        "textMate": {
+            "out": "syntaxes/hello-world.tmLanguage.json"
+        }
+    }],
+    "out": "src/language-server/generated"
+}
